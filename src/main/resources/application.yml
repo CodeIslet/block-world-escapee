@@ -1,0 +1,16 @@
+server:
+  port: 5000
+
+spring:
+  r2dbc:
+    url:
+    username:
+    password:
+    pool:
+      initial-size: 2
+      validation-query: SELECT 1
+
+logging:
+  level:
+    root: INFO
+    me.codeislet.blockworldescapee: DEBUG
